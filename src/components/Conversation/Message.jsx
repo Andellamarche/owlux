@@ -6,8 +6,8 @@ const Message = ({ message }) => {
       <div
         className={`${
           isUser
-            ? 'bg-owlux-user-msg max-w-[70%] rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br'
-            : 'bg-owlux-assistant-msg max-w-[80%] rounded-tl-xl rounded-tr-xl rounded-br-xl rounded-bl'
+            ? 'bg-owlux-user-msg max-w-[70%] rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-sm'
+            : 'bg-owlux-assistant-msg max-w-[80%] rounded-tl-xl rounded-tr-xl rounded-br-xl rounded-bl-sm'
         } px-4 py-3 shadow-sm`}
       >
         <p className="text-sm leading-relaxed whitespace-pre-wrap">{message.content}</p>
