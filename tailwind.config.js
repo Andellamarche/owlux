@@ -16,9 +16,14 @@ export default {
         'owlux-user-msg': '#E3F2FD',
         'owlux-assistant-msg': '#F5F5F5',
         'owlux-subquery-bg': '#F8F9FA',
+        'user-bubble': '#F0F0F0',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      boxShadow: {
+        'sidebar-left': '-2px 0px 14.4px 0px rgba(0,0,0,0.10)',
+        'sidebar-right': '3px 0px 14.4px 0px rgba(0,0,0,0.10)',
       },
     },
   },

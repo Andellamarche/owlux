@@ -6,7 +6,7 @@ const Message = ({ message }) => {
       <div
         className={`${
           isUser
-            ? 'bg-owlux-user-msg max-w-[70%] rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-sm'
+            ? 'bg-user-bubble max-w-[70%] rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-sm'
             : 'bg-owlux-assistant-msg max-w-[80%] rounded-tl-xl rounded-tr-xl rounded-br-xl rounded-bl-sm'
         } px-4 py-3 shadow-sm`}
       >
