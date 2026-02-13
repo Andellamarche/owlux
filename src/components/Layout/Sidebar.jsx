@@ -6,7 +6,7 @@ const Sidebar = ({ selectedChatId, onChatSelect }) => {
   const [selectedApi, setSelectedApi] = useState(apiOptions[0].value);
 
   return (
-    <div className="w-64 bg-owlux-sidebar h-screen flex flex-col border-r border-owlux-border">
+    <div className="w-64 bg-owlux-sidebar h-screen flex flex-col shadow-sidebar-left">
       {/* Logo */}
       <Logo />
 

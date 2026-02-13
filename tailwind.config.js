@@ -20,6 +20,13 @@ export default {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
+      boxShadow: {
+        // Sidebar IZQUIERDO proyecta sombra hacia la DERECHA (valor positivo)
+        'sidebar-left': '2px 0px 14.4px 0px rgba(0,0,0,0.10)',
+        
+        // Panel DERECHO proyecta sombra hacia la IZQUIERDA (valor negativo)
+        'sidebar-right': '-3px 0px 14.4px 0px rgba(0,0,0,0.10)',
+      },
     },
   },
   plugins: [],
